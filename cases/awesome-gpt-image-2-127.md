@@ -1,0 +1,77 @@
+---
+id: awesome-gpt-image-2-127
+title: "例 127：建筑空间场景图"
+modality: image
+tags: ["headshot", "ui-system", "lookbook", "ad-series", "card-deck", "anime"]
+source:
+  repo: "freestylefly/awesome-gpt-image-2"
+  url: "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-1.md"
+  author: "freestylefly"
+  license: unknown
+model:
+  recommended: "openai/gpt-image-2"
+inputs:
+  reference_images: 1
+preview: "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/case127.jpg"
+---
+
+```prompt
+{
+  "type": "manga page",
+  "style": "anime illustration, full color",
+  "characters": {
+    "woman": {
+      "appearance": "long black hair, purple eyes",
+      "outfit": "grey long-sleeve shirt, dark grey skinny jeans, barefoot"
+    },
+    "delivery_man": {
+      "appearance": "bald, older man, thick eyebrows",
+      "outfit": "blue work jacket over a grey shirt"
+    }
+  },
+  "layout": {
+    "description": "Page split vertically. Left side contains 4 stacked horizontal panels. Right side is a single tall vertical panel.",
+    "left_column_panels": [
+      {
+        "panel_number": 1,
+        "scene": "Woman sitting on a grey sofa in a living room, holding a white mug.",
+        "text_elements": [
+          { "type": "speech_bubble", "text": "?" },
+          { "type": "sound_effect", "text": "ピンポーン♪", "description": "doorbell ringing" }
+        ]
+      },
+      {
+        "panel_number": 2,
+        "scene": "Woman opening the front door. Delivery man standing outside holding a cardboard box, smiling.",
+        "text_elements": [
+          { "type": "speech_bubble", "speaker": "delivery_man", "text": "こんにちは〜！宅配便で〜す！" },
+          { "type": "speech_bubble", "speaker": "woman", "text": "は、はい…ありがとうございます" }
+        ]
+      },
+      {
+        "panel_number": 3,
+        "scene": "Close-up of the delivery man laughing enthusiastically with a sparkly pink background.",
+        "text_elements": [
+          { "type": "speech_bubble", "speaker": "delivery_man", "text": "おや〜？いや〜美人さんですなあ！こんな綺麗な方がお一人でお住まいなんて、もったいないなあ〜♪" }
+        ]
+      },
+      {
+        "panel_number": 4,
+        "scene": "Close-up of the woman looking disgusted and uncomfortable, sweating slightly. The back of the delivery man's head is visible in the foreground.",
+        "text_elements": [
+          { "type": "speech_bubble", "speaker": "delivery_man", "text": "それにしてもお肌が綺麗！スタイルも抜群だし〜モデルさんみたいですよ！" },
+          { "type": "thought_bubble", "speaker": "woman", "text": "え…？何この人…ちょっと気持ち悪いかも…" },
+          { "type": "caption_box", "text": "この後も延々と褒め続ける配達員だった…" }
+        ]
+      }
+    ],
+    "right_column_panel": {
+      "panel_number": 5,
+      "scene": "Full-body portrait of the woman standing indoors, looking annoyed and suspicious with her arms crossed.",
+      "text_elements": [
+        { "type": "thought_bubble", "speaker": "woman", "text": "誰かしら…？" }
+      ]
+    }
+  }
+}
+```

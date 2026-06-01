@@ -1,0 +1,64 @@
+---
+id: awesome-gpt-image-2-362
+title: "例 362：抹茶品牌触点系统视觉板"
+modality: image
+tags: ["ui-system", "ad-series", "card-deck", "minimalist"]
+source:
+  repo: "freestylefly/awesome-gpt-image-2"
+  url: "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md"
+  author: "freestylefly"
+  license: unknown
+model:
+  recommended: "openai/gpt-image-2"
+inputs:
+  reference_images: 1
+preview: "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/case362.jpg"
+---
+
+```prompt
+Create a premium “Matcha Brand Touchpoint System” visual board for a modern lifestyle brand called:
+
+“MATCHA MODE”
+
+Build a full brand identity system, not a single image.
+
+HERO SCENE:
+
+A hyper-realistic matcha drink in a ceramic cup placed on a clean natural surface.
+
+– vibrant green matcha foam with micro-bubbles
+– bamboo whisk (chasen) nearby
+– soft natural light
+– slight matcha powder dust on the surface
+– minimal Japanese aesthetic
+ATMOSPHERE:
+– calm, warm, soft daylight
+– clean background (off-white or beige)
+– subtle shadows and reflections
+– feeling of wellness and luxury
+FULL BRAND SYSTEM:
+– takeout cups (paper + glass bottles)
+– packaging boxes (minimalist design)
+– tote bags (premium lifestyle)
+– labels, stickers, seals
+– menu cards with pricing ($6.50, $8.90, etc.)
+– small typography everywhere
+– subtle imperfections (realism)
+
+DESIGN LANGUAGE:
+
+– modern minimalist typography
+– Japanese-inspired layout
+– soft green palette
+– elegant spacing
+
+INCLUDE:
+– matcha latte
+– iced matcha
+– matcha desserts
+– combo sets
+– lifestyle shots
+The composition must feel like a high-end design agency presentation.
+
+Ultra-detailed, realistic, clean, aesthetic, and highly shareable.
+```

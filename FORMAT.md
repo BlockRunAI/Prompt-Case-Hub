@@ -46,27 +46,25 @@ The **prompt body** follows the front-matter. Use a fenced block labelled
 
 ## Worked example
 
-See [`cases/sample-cinematic-headshot.md`](./cases/sample-cinematic-headshot.md)
-for a complete, valid case. Its front-matter:
+Browse any file under [`cases/`](./cases/) for a complete, valid case. A typical
+front-matter looks like:
 
 ```yaml
 ---
-id: cinematic-headshot
-title: Cinematic studio headshot
+id: awesome-gpt-image-2-4
+title: "例 4：老干妈风味"
 modality: image
-tags: [portrait, headshot, studio, cinematic]
+tags: []
 source:
-  repo: jamez-bondos/awesome-gpt4o-images
-  url: https://github.com/jamez-bondos/awesome-gpt4o-images
-  author: jamez-bondos
+  repo: "freestylefly/awesome-gpt-image-2"
+  url: "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-1.md"
+  author: "freestylefly"
   license: unknown
 model:
-  recommended: openai/gpt-image-1
-  tested_on: [openai/gpt-image-1, google/nano-banana-pro]
+  recommended: "openai/gpt-image-2"
 inputs:
   reference_images: 1
-  aspect_ratio: "1:1"
-notes: Supply one clear face reference; keep the background prompt minimal.
+preview: "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/case4.jpg"
 ---
 ```
 
@@ -74,18 +72,27 @@ notes: Supply one clear face reference; keep the background prompt minimal.
 
 Every case is also registered in [`cases/index.json`](./cases/index.json), a flat
 array of catalog entries. This lets a consumer list/filter the whole library
-without opening each file. Each entry mirrors the key front-matter fields:
+without opening each file. Index entries carry a few **denormalized** fields
+(`modality`, `workflow`, `reference_images`, `model`, `preview`) so a client can
+filter the catalog without fetching every case body:
 
 ```json
 {
-  "id": "cinematic-headshot",
-  "title": "Cinematic studio headshot",
+  "id": "awesome-gpt-image-2-4",
+  "title": "例 4：老干妈风味",
   "modality": "image",
-  "tags": ["portrait", "headshot", "studio", "cinematic"],
-  "file": "cases/sample-cinematic-headshot.md",
-  "source": "jamez-bondos/awesome-gpt4o-images"
+  "workflow": "image2image",
+  "reference_images": 1,
+  "tags": [],
+  "model": "openai/gpt-image-2",
+  "preview": "https://raw.githubusercontent.com/.../case4.jpg",
+  "source": "freestylefly/awesome-gpt-image-2",
+  "file": "cases/awesome-gpt-image-2-4.md"
 }
 ```
+
+`workflow` is one of `text2image` · `image2image` · `text2video` · `image2video`,
+derived from `modality` + `reference_images` (ref ≥ 1 ⇒ `image2*`).
 
 ## Normalization rules
 

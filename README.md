@@ -26,17 +26,22 @@ Prompt-Case-Hub does two things:
 At minimum, the hub integrates and credits the following open-source repositories
 (full attribution + license notes in [SOURCES.md](./SOURCES.md)):
 
-| Repository | Focus | Notes |
-|------------|-------|-------|
-| [BlockRunAI/Claude-Code-GPT-IMAGE2-SeeDance-BlockRun](https://github.com/BlockRunAI/Claude-Code-GPT-IMAGE2-SeeDance-BlockRun) | Image / video | The seed library — gpt-image-2 & Seedance one-line cases. |
-| [jamez-bondos/awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images) | Image | Curated GPT-4o / gpt-image-1 image cases with previews. |
-| [f/prompts.chat](https://github.com/f/prompts.chat) | Text | f.k.a. *Awesome ChatGPT Prompts* — the classic community collection. |
-| [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) | Text / method | Techniques and reference patterns. |
-| [linexjlin/GPTs](https://github.com/linexjlin/GPTs) | Text | System-prompt collection from public GPTs. |
-| [EmbraceAGI/awesome-chatgpt-zh](https://github.com/EmbraceAGI/awesome-chatgpt-zh) | Text (zh) | Chinese prompt guide and curated list. |
+**Currently integrated — 848 cases** normalized from these upstream repositories
+(via the seed aggregation repo
+[BlockRunAI/Claude-Code-GPT-IMAGE2-SeeDance-BlockRun](https://github.com/BlockRunAI/Claude-Code-GPT-IMAGE2-SeeDance-BlockRun)):
 
-This list is intentionally additive — new sources are welcomed via PR as long as
-each integrated case carries its `source` attribution (see [FORMAT.md](./FORMAT.md)).
+| Cases | Repository | Focus |
+|------:|------------|-------|
+| 352 | [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | gpt-image-2 image cases |
+| 300 | [EvoLinkAI/awesome-gpt-image-2-prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts) | gpt-image-2 prompt collection |
+| 105 | [YouMind-OpenLab/awesome-seedance-2-prompts](https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts) | Seedance 2 video prompts |
+| 63 | [EvoLinkAI/awesome-seedance-2-guide](https://github.com/EvoLinkAI/awesome-seedance-2-guide) | Seedance 2 guide + cases |
+| 28 | [ZeroLu/awesome-seedance](https://github.com/ZeroLu/awesome-seedance) | Seedance video prompts |
+
+Full attribution and candidate (not-yet-integrated) sources are in
+[SOURCES.md](./SOURCES.md). The list is additive — new sources are welcomed via PR
+as long as each integrated case carries its `source` attribution (see
+[FORMAT.md](./FORMAT.md)).
 
 ---
 
@@ -67,8 +72,10 @@ See [FORMAT.md](./FORMAT.md) for the full field reference and a worked example.
 
 ## Status
 
-Bootstrapping. The schema, index format, and attribution layer are in place;
-cases are being normalized from the integrated sources. Contributions that add a
+**848 cases normalized and live** under [`cases/`](./cases/), indexed in
+[`cases/index.json`](./cases/index.json). The schema, index format, and
+attribution layer are in place. Next up: integrating the candidate text/general
+sources listed in [SOURCES.md](./SOURCES.md). Contributions that add a
 correctly-formatted, properly-attributed case are welcome — see
 [CONTRIBUTING.md](./CONTRIBUTING.md).
 

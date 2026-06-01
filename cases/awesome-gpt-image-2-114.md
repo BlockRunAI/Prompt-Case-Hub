@@ -1,0 +1,91 @@
+---
+id: awesome-gpt-image-2-114
+title: "例 114：插画艺术创作图"
+modality: image
+tags: ["headshot", "ui-system", "ad-series"]
+source:
+  repo: "freestylefly/awesome-gpt-image-2"
+  url: "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-1.md"
+  author: "freestylefly"
+  license: unknown
+model:
+  recommended: "openai/gpt-image-2"
+inputs:
+  reference_images: 1
+preview: "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/case114.jpg"
+---
+
+```prompt
+{
+  "type": "4-panel vertical comic strip",
+  "style": "black and white pencil sketch, crosshatch shading, satirical caricature comic",
+  "characters": {
+    "subject_1": "Sam Altman, curly hair, casual sweater",
+    "subject_2": "Ronan Farrow, suit, tie, holding notepad"
+  },
+  "layout": {
+    "panels": [
+      {
+        "panel_number": 1,
+        "top_caption": "SAM ALTMAN THINKS THIS WILL BE A NICE LITTLE PROFILE...",
+        "scene": "subject_1 looking smug with hands steepled; subject_2 looking serious taking notes.",
+        "thought_bubble": "I'LL BE CHARMING. IT'LL BE A GREAT CHARACTER PIECE. PEOPLE WILL LOVE IT.",
+        "center_text": "THE RONAN FARROW INTERVIEW",
+        "inset_portraits": {
+          "count": 2,
+          "labels": ["HARVEY WEINSTEIN EXPOSED", "LESLIE MOONVES EXPOSED"]
+        },
+        "info_boxes": {
+          "count": 3,
+          "text": [
+            "RONAN FARROW: PULITZER PRIZE-WINNING REPORTER WHO EXPOSED HARVEY WEINSTEIN AT THE NEW YORKER",
+            "AND LESLIE MOONVES AT CBS.",
+            "POWER. ABUSE. ACCOUNTABILITY."
+          ]
+        }
+      },
+      {
+        "panel_number": 2,
+        "top_caption": "CUT TO...",
+        "scene": "Close-up of subject_1 looking shocked and horrified.",
+        "article_header": "THE NEW YORKER\nTHE SAM ALTMAN PROFILE\nTHE OPENAI CEO'S COMPLICATED QUEST\nBy Ronan Farrow"
+      },
+      {
+        "panel_number": 3,
+        "top_caption": "SOON AFTER THE ARTICLE IS PUBLISHED...",
+        "scene": "subject_1 looking extremely stressed, sweating, holding a phone to his ear. Surrounded by 6 hands holding smartphones.",
+        "phone_labels": ["VC", "REPORTER", "EX-STAFFEE", "INVESTOR", "TECH CEO", "FORMER COLLEAGUE"],
+        "shouts": {
+          "count": 8,
+          "text": [
+            "LIAR!",
+            "COMPULSIVE LIAR!",
+            "PATHOLOGICAL LIAR!",
+            "YOU CAN'T STOP LYING!",
+            "LIAR!!!",
+            "SOCIOPATH! (ALLEGEDLY)",
+            "EVERYTHING HE SAYS IS A LIE!",
+            "MANIPULATIVE LIAR!"
+          ]
+        },
+        "sound_effects": "RING! RING! RING!"
+      },
+      {
+        "panel_number": 4,
+        "top_caption": "AND THE REPORT CONCLUDES...",
+        "scene": "subject_1 looking utterly defeated and depressed.",
+        "quote_box": "\"ALTMAN FREQUENTLY AND CONSISTENTLY LIES TO INVESTORS, EMPLOYEES, THE BOARD, AND EVEN CLOSE FRIENDS.\"\n\"HE APPEARS TO HAVE NO COMFORT TELLING FALSEHOODS.\"\n\"HE IS, BY MANY ACCOUNTS, A COMPULSIVE LIAR AND A SOCIOPATH.\"\n(ALLEGEDLY)",
+        "thought_bubble": {
+          "scene": "Happy subject_1 holding a 'WORLD'S BEST CEO' mug.",
+          "text": "I THOUGHT IT WOULD BE A NICE LITTLE PROFILE...",
+          "sparkle_words": {
+            "count": 4,
+            "text": ["GENIUS!", "VISIONARY!", "INSPIRING!", "BRILLIANT LEADER!"]
+          }
+        },
+        "bottom_caption": "INSTEAD, IT'S THE PROFILE THAT EXPOSES HIM."
+      }
+    ]
+  }
+}
+```

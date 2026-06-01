@@ -1,0 +1,36 @@
+---
+id: awesome-gpt-image-2-193
+title: "例 193：千手观音化身打工人"
+modality: image
+tags: ["ad-series"]
+source:
+  repo: "freestylefly/awesome-gpt-image-2"
+  url: "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md"
+  author: "freestylefly"
+  license: unknown
+model:
+  recommended: "openai/gpt-image-2"
+inputs:
+  reference_images: 1
+preview: "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/case193.jpg"
+---
+
+```prompt
+[中文]
+一幅高度详细的千手观音菩萨工笔画。
+
+然而，千手并没有拿着神圣的宗教法器，而是拿着现代办公和家用物品：**笔记本电脑、智能手机、成堆的文件、咖啡杯、印章、计算器、拖把和奶瓶**。它代表了终极的多任务处理现代工作者。
+
+脑后的金色光环由旋转的时钟齿轮组成。
+
+**在右下角，一个单一的红色竖排艺术家印章写着“吴先生”（Mr. Wu），风格化得像水印一样。** --ar 3:4
+
+[English]
+A highly detailed Gongbi painting of the Bodhisattva "Guanyin of a Thousand Hands".
+
+However, instead of sacred religious artifacts, the thousand hands are holding modern office and household items: **laptops, smartphones, stacks of paperwork, coffee cups, stamps, calculators, mops, and baby bottles**. It represents the ultimate multi-tasking modern worker.
+
+The golden aura behind the head is made of spinning clock gears.
+
+**In the bottom right corner, a single red vertical artist chop seal reads "吴先生" (Mr. Wu), stylized like a watermark.** --ar 3:4
+```

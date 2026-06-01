@@ -1,0 +1,102 @@
+---
+id: awesome-gpt-image-2-175
+title: "例 175：封面排版设计图"
+modality: image
+tags: ["poster", "ui-system", "ad-series", "card-deck", "logo-3d", "sci-fi", "minimalist"]
+source:
+  repo: "freestylefly/awesome-gpt-image-2"
+  url: "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md"
+  author: "freestylefly"
+  license: unknown
+model:
+  recommended: "openai/gpt-image-2"
+inputs:
+  reference_images: 1
+preview: "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/case175.jpg"
+---
+
+```prompt
+[中文]
+创建一个高级的 4:3 演示文稿封面幻灯片，介绍来自 http://chroniclehq.com 的 AI 原生演示平台 Chronicle。  
+
+Style: 
+优雅，极简，现代，高级初创企业美学。类似于高端品牌指南封面（如 Apple / Linear / Notion 风格）。带有微妙深度感的柔和渐变背景，干净的留白，精致的排版，经过打磨的编辑式布局。  
+
+Main title: 
+CHRONICLE  
+
+Subtitle: 
+AI PRESENTATION PLATFORM  
+
+Body copy (small elegant text): 
+将原始想法转化为经过打磨的、高影响力的演示文稿。 
+从笔记、文档、链接或现有幻灯片开始。 
+使用 AI 生成美观的、符合品牌调性的幻灯片。 
+在灵活的画布上自由编辑。 
+导出为 PPT、PDF，或发布为网站。  
+
+Feature highlights (small premium labels): 
+STORY-FIRST 
+ON-BRAND DESIGN 
+AI EDITING 
+FREEFORM CANVAS 
+PPT EXPORT 
+TEAM COLLABORATION  
+
+Bottom-right elegant logo text: 
+chronicle  
+
+Visual feeling: 
+商务级高级感，战略级幻灯片质量，咨询级演示文稿，略带未来感但高度专业。  
+
+Composition: 
+干净的编辑式平衡，不对称布局，强烈的留白，演示软件主视觉感。  
+
+Aspect ratio: 
+4:3  
+
+Language: 
+仅限英文
+
+[English]
+Create a premium 4:3 presentation cover slide introducing Chronicle, the AI-native presentation platform from http://chroniclehq.com.  
+
+Style: 
+elegant, minimal, modern, premium startup aesthetic. Similar to high-end brand guideline covers (like Apple / Linear / Notion style). Soft gradient background with subtle depth, clean whitespace, refined typography, polished editorial layout.  
+
+Main title: 
+CHRONICLE  
+
+Subtitle: 
+AI PRESENTATION PLATFORM  
+
+Body copy (small elegant text): 
+Turn raw ideas into polished, high-impact presentations. 
+Start from notes, docs, links, or existing decks. 
+Generate beautiful, on-brand slides with AI. 
+Edit freely on a flexible canvas. 
+Export to PPT, PDF, or publish as a website.  
+
+Feature highlights (small premium labels): 
+STORY-FIRST 
+ON-BRAND DESIGN 
+AI EDITING 
+FREEFORM CANVAS 
+PPT EXPORT 
+TEAM COLLABORATION  
+
+Bottom-right elegant logo text: 
+chronicle  
+
+Visual feeling: 
+business-class premium, strategy deck quality, consulting-grade presentation, slightly futuristic but highly professional.  
+
+Composition: 
+clean editorial balance, asymmetrical layout, strong whitespace, presentation software hero shot feeling.  
+
+Aspect ratio: 
+4:3  
+
+Language: 
+English only
+```

@@ -1,0 +1,20 @@
+---
+id: awesome-gpt-image-2-prompts-case-20-magazine-travel-guide-feature-article-https-
+title: "Case 20: [Magazine Travel Guide Feature Article](https://x.com/andis13/status/2047204384811921764) (by [@andis13](https:"
+modality: image
+tags: ["ui-system", "ad-series"]
+source:
+  repo: "EvoLinkAI/awesome-gpt-image-2-prompts"
+  url: "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts/blob/main/cases/portrait.md"
+  author: "EvoLinkAI"
+  license: unknown
+model:
+  recommended: "openai/gpt-image-2"
+inputs:
+  reference_images: 1
+preview: "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-prompts/main/images/portrait_case71/output.jpg"
+---
+
+```prompt
+Create image of Magazine feature article [travel] guide page, cute, information dense photo book style magazine feature article page. Add all necessary sections, tips, recommendations, information. add photos for any sections and recommendations if you like. Place the attached person at the precise location of [city, country]. Seamlessly blend the attached person as if they are sightseeing. Approach this task with the understanding that this is a critical, information rich page that will significantly influence visitor numbers, text accuracy is important. Fully use the entire [9:16] page. NEGATIVE PROMPT: coordinate texts @swiat_ai @ProfitAII
+```

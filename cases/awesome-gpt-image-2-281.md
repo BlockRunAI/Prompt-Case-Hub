@@ -1,0 +1,40 @@
+---
+id: awesome-gpt-image-2-281
+title: "例 281：赛博朋克科幻曼荼罗"
+modality: image
+tags: ["ad-series", "sci-fi"]
+source:
+  repo: "freestylefly/awesome-gpt-image-2"
+  url: "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md"
+  author: "freestylefly"
+  license: unknown
+model:
+  recommended: "openai/gpt-image-2"
+inputs:
+  reference_images: 1
+preview: "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/case281.jpg"
+---
+
+```prompt
+[中文]
+でChatGPTで画像を作成してもらって、今日また作成してもらったらGPT image 2かもしれず、出来が変わったように見えるのでメモ
+
+左の水色と黄色のが先週
+右の紫のが今日
+
+右のは透明感とか解像度、緻密さが違うような気がする…
+
+プロンプト
+曼荼羅の近未来SF版を描いて
+
+[English]
+I had ChatGPT create images, and when I had it create them again today, it might be GPT image 2, and it seems like the quality has changed, so I'm making a note of it
+
+The light blue and yellow one on the left is from last week
+The purple one on the right is from today
+
+I feel like the transparency, resolution, and fineness are different for the one on the right.
+
+Prompt
+Draw a near-future sci-fi version of a mandala
+```

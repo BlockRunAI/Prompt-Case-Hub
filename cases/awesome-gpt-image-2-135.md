@@ -1,0 +1,71 @@
+---
+id: awesome-gpt-image-2-135
+title: "例 135：应用界面样机图"
+modality: image
+tags: ["ui-system", "ad-series", "unbox", "logo-3d"]
+source:
+  repo: "freestylefly/awesome-gpt-image-2"
+  url: "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-1.md"
+  author: "freestylefly"
+  license: unknown
+model:
+  recommended: "openai/gpt-image-2"
+inputs:
+  reference_images: 1
+preview: "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/case135.jpg"
+---
+
+```prompt
+{
+  "type": "website landing page mockup",
+  "theme": "men's skincare, sleek, professional, dark mode",
+  "color_palette": "dark navy blue, white text, subtle blue gradients",
+  "header": {
+    "logo": "NEX SKIN",
+    "navigation": ["HOME", "PRODUCT", "ABOUT", "FEATURE", "FAQ"],
+    "cta_button": "今すぐ始める >"
+  },
+  "hero_section": {
+    "left_column": {
+      "headline": "清潔感は、毎日のスキンケアから。",
+      "sub_headline": "男の肌は、もっとシンプルでいい。",
+      "body_text": "3 lines of descriptive text about skincare benefits",
+      "buttons": [
+        {"style": "solid blue", "text": "今すぐ始める >"},
+        {"style": "outlined", "text": "詳しく見る >"}
+      ],
+      "feature_highlights": {
+        "count": 3,
+        "items": [
+          {"icon": "sparkle", "title": "テカリ対策", "subtitle": "皮脂バランスを整える"},
+          {"icon": "water drop", "title": "保湿", "subtitle": "うるおいを与え続ける"},
+          {"icon": "shield/bottle", "title": "オールインワン", "subtitle": "化粧水・美容液・乳液がこれ1本"}
+        ]
+      }
+    },
+    "center_image": {
+      "subject": "handsome young Asian man",
+      "appearance": "clean-cut, dark hair, flawless glowing skin, wearing a black shirt",
+      "pose": "hand touching chin thoughtfully",
+      "lighting": "dramatic studio lighting highlighting facial structure"
+    },
+    "right_column": {
+      "product_shot": {
+        "bottle": "tall cylindrical dark blue bottle with water droplets",
+        "labels": ["NEX SKIN", "ALL-IN-ONE LOTION", "150mL"],
+        "base": "textured dark rock surface",
+        "badge": "circular outlined badge reading 'これ1本で男の肌悩みをトータルケア'"
+      }
+    }
+  },
+  "bottom_stats_bar": {
+    "count": 3,
+    "items": [
+      {"icon": "users", "label": "累計販売本数", "value": "120万本突破"},
+      {"icon": "star", "label": "使用感満足度", "value": "92.1%"},
+      {"icon": "checklist", "label": "リピート率", "value": "85.3%"}
+    ],
+    "footnotes": "small legal text on the right"
+  }
+}
+```
