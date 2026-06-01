@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/BlockRunAI/Prompt-Case-Hub/schema/case.schema.json",
+  "title": "Prompt-Case-Hub case front-matter",
+  "description": "Schema for the YAML front-matter of a unified prompt case. The prompt text itself lives in the markdown body as fenced `prompt` (and optional `negative`) blocks.",
+  "type": "object",
+  "required": ["id", "title", "modality", "tags", "source"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable kebab-case slug, unique across the hub. Never reused."
+    },
+    "title": { "type": "string", "minLength": 1 },
+    "modality": {
+      "type": "string",
+      "enum": ["image", "video", "text", "audio"]
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1
+    },
+    "source": {
+      "type": "object",
+      "required": ["repo", "url", "license"],
+      "additionalProperties": false,
+      "properties": {
+        "repo": {
+          "type": "string",
+          "pattern": "^[^/]+/[^/]+$",
+          "description": "owner/name of the upstream repository."
+        },
+        "url": { "type": "string", "format": "uri" },
+        "author": { "type": "string" },
+        "license": {
+          "type": "string",
+          "description": "Upstream license SPDX id, or 'unknown'."
+        }
+      }
+    },
+    "model": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "recommended": { "type": "string" },
+        "tested_on": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "inputs": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "reference_images": { "type": "integer", "minimum": 0 },
+        "aspect_ratio": { "type": "string" }
+      }
+    },
+    "preview": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}

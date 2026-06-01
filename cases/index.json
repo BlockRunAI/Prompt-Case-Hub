@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "schema": "../schema/case.schema.json",
+  "cases": [
+    {
+      "id": "cinematic-headshot",
+      "title": "Cinematic studio headshot",
+      "modality": "image",
+      "tags": ["portrait", "headshot", "studio", "cinematic"],
+      "file": "cases/sample-cinematic-headshot.md",
+      "source": "jamez-bondos/awesome-gpt4o-images"
+    }
+  ]
+}
